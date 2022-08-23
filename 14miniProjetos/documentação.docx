@@ -1,0 +1,114 @@
+O que você vai aprender
+
+O que é escopo?
+Em poucas palavras, escopo é a propriedade que determina onde uma variável pode ser utilizada dentro de um programa, por exemplo, se você declara uma variável dentro de uma função, só aquela função consegue 
+utilizar a variável, e SE você declara uma variável fora de uma função, ela pode ser acessada de qualquer parte daquele mesmo script, pois ela foi declarada globalmente. No Javascript existem 3 tipos de escopos, o global, local e de bloco.
+_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Variáveis
+*Variável let 
+O que é variável como se declara uma variável?
+Variáveis representam uma forma de identificar por um nome simbólico uma região da memória que armazena um valor sendo utilizado por uma função. 
+
+Let
+let é, agora, a forma preferida de declaração de variáveis. Não é uma surpresa, já que ele é uma melhoria às declarações com var. Ele também resolve o problema de var do qual acabamos de tratar. Vamos ver a razão disso.
+let tem escopo de bloco
+Um bloco é uma porção de código cercado por {}. Um bloco vive dentro dessas chaves. Tudo o que estiver cercado por chaves é um bloco.
+
+Assim, uma variável declarada com let em um bloco estará disponível apenas dentro daquele bloco. Vamos explicar isso com um exemplo:
+*Qual a diferença entre VAR e Let?
+A única diferença entre as duas é o escopo em que essas variáveis existem. Enquanto as variáveis declaradas com let têm escopo de bloco, instrução ou expressão, as variáveis declaradas com var têm escopo global ou escopo de função.
+
+*camelCase
+Ela é uma convenção de nomenclatura usada por developers para deixar o seu código mais legível para outros DEVs. 
+
+*Se você quer COMENTAR varias linhas de uma vez, é só selecionar os textos
+e apertar Ctrl + ; apertar os dois botões JUNTOS!!!!
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Constantes
+
+A declaração const cria uma variável cujo o valor é fixo, ou seja, uma constante somente leitura. Isso não significa que o valor é imutável, apenas que a variável constante não pode ser alterada ou retribuída.
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Tipos Primitivos tipos de referencia 
+
+let nome = 'rafael'; // string literal
+let idade = 25; // number literal
+let estaAprovado = true; // boolean
+let sobrenome = ;// Undefined
+let corSelecionado = null //Redefinir um valor
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Tipagem Dinâmica no Javascript
+
+Tipagem dinâmica é uma característica de determinadas linguagens de programação, que não exigem declarações de tipos de dados, pois são capazes de escolher que tipo utilizar dinamicamente para cada variável, podendo alterá-lo durante
+a compilação ou a execução do programa.
+
+ No console da pra rodar os tipos a função é 'typeof' que interpreta os tipos pra você.
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Objetos
+O que é um objeto em JavaScript?
+Em JavaScript, um objeto é uma entidade independente, com propriedades e tipos. Compare-o com uma xícara, por exemplo. Uma xícara é um objeto, com propriedades. Uma xícara tem uma cor, uma forma, peso, um material de composição, etc.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Arrays
+O que é um array?
+Os arrays são estruturas que servem para guardar dados, e organizá-los. Seu objetivo é ser um espaço fixo na memória do computador que armazena elementos. Esses elementos podem ser acessados por um tipo de indicação, que chamamos de índice. Você pode guardar seus chapéus na gaveta 1, suas calças na gaveta 2 e as meias na gaveta 3, e sempre que precisar de calças, chapéus ou meias vai saber em que gaveta buscar.
+
+Para que serve um array?
+De forma mais robusta, um array é uma estrutura de dados que serve para guardar elementos em um espaço da memória. Estes espaços da memória são chamados de variáveis. Aqui você encontra mais conteúdos sobre variáveis, tipos e muito mais.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Functions
+De uma maneira bem simplificada, função nada mais é que um pedaço de código.
+Geralmente ele é pequeno, conciso e, de preferência, deve fazer algo bem específico e claro.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+- Tipos de Funções
+- Operadores no Javascript
+- Operadores aritiméticos no Javascript
+- Operadores de atribuição no Javascript 
+- Operadores de igualdade no Javascript
+- Operador Ternário
+- Operadores Lógicos
+- Comparações não boleanos
+- (Mini-Projeto 1) - Trocando Valores de Variáveis
+- If..Else
+- Switch..Case
+- Laço For/Loop For
+- Laço While/Loop While
+- Laço Do..While/Loop Do.. While
+- Laço For..In/Loop For..In
+- Laço For..Of/Loop For..Of
+- (Mini-Projeto 2) - Máximo Entre Dois Valores
+- (Mini-Projeto 3) - FizzBuzz
+- (Mini-Projeto 4) - Medidor de Velocidade
+- Mensagem Para Inscritos :D
+- (Mini-Projeto 5) - Par ou Impar
+- (Mini-Projeto 6) - Encontre o String
+- (Mini-Projeto 7) - Multiplos de 3 e 5
+- (Mini-Projeto 8) - Média de Nota Escolar
+- (Mini-Projeto 9) - Contador de Asteríscos
+- (Mini-Projeto 10) - Números Primos
+- Factory Functions
+- Constructor Functions
+- Natureza Dinâmica de Objetos
+- Clonando Objetos
+- Math
+- String
+- Template Literal
+- Date Lidando com datas
+- (Mini-Projeto 11) - Montador de Endereço
+- (Mini-Projeto 12) - Encontre a igualdade
+- (Mini-Projeto 13) - Montador de Postagem de blog
+- Constructor Function
+- (Mini-Projeto 14) - Faixa de Preço
+- Introdução a Arrays
+- Add Elementos a um Array
+- Encontrando Elementos do Tipo Primitivos
+- Encontrando Elementos do Tipo Referência
+- Arrow Functions
+- Removendo elementos de um Array
+- Esvaziando um Array
+- Combinando um Array
+- Operador Spread
+- Foreach
+- Combinando Arrays
+- Input - Como receber dados do usuário
+- Introdução a manipulação do DOM
+- (Mini-Projeto 14) - Segurança Virtual
+- Mensagem Final!
