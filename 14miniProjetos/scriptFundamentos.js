@@ -197,12 +197,12 @@
 
 // Truthy
 
-let corPersonalidade = 'Vermelho';
-let corPadrao = 'Azul';
-let corPerfil = corPersonalizada || corPadrao;
+// let corPersonalidade = 'Vermelho';
+// let corPadrao = 'Azul';
+// let corPerfil = corPersonalizada || corPadrao;
 
-console.log(corPerfil);
-
+// console.log(corPerfil);
+//______________________________________________________________________________________________________________________________
 
 
 

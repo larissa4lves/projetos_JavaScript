@@ -69,16 +69,65 @@ Symbol.
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 
 - Operadores no Javascript
+Os operadores podem ser aritméticos como soma, subtração e divisão; de comparação como a igualdade; operadores sobre cadeias de caracteres como o de concatenação de strings e, por fim, operadores 
+lógicos JavaScript como o ‘and’ e o ‘or’. 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 - Operadores aritiméticos no Javascript
+Esses operadores podem ser velhos conhecidos se você já frequentou aulas de matemática elementar. São usados para fazer operações de soma, subtração, multiplicação, divisão, módulo e exponenciação. 
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
-- Operadores de atribuição no Javascript 
+- Operadores de atribuição no Javascript
+O operador de atribuição básico é o sinal de igual (=). Ele atribui um valor a uma variável:
+
+x = 5
+
+Essa operação atribui a x o valor 5.  
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 - Operadores de igualdade no Javascript
+O operador de igualdade compara dois operandos e retorna verdadeiro, se eles forem iguais, e falso, se forem diferentes.
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 - Operador Ternário
+Operador ternário JavaScript é uma contração de um operador de atribuição e duas expressões lógicas. A sintaxe é um pouco diferente das que vimos até aqui, mas tem o benefício de evitar escrever um 
+bloco IF para atribuir um valor a uma variável.
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 - Operadores Lógicos
+São usados para realizar operações lógicas. Elas podem ser do tipo AND, OR e NOT. Os operandos devem ser lógicos, verdadeiro ou falso. Também podem operar sobre expressões lógicas, ou seja, que retornem valores verdadeiro ou falso. 
+
+AND
+O operador AND (&&) recebe dois operandos e retorna verdadeiro se, e somente se ambos os operandos sejam verdadeiros. Retorna falso, caso contrário. 
+
+Por exemplo, a expressão:
+
+true && true;
+
+retorna true. Já a expressão: 
+
+true && false;
+
+retorna false. 
+
+OR 
+Para o operador OR (||) retornar verdadeiro, basta que um dos operandos seja verdadeiro. Ele também retorna verdadeiro caso os dois operandos sejam verdadeiros. Retorna falso, se os dois forem falsos. 
+
+A expressão:
+
+true || true; 
+
+retorna true bem como a expressão: 
+
+true || false;
+
+Já a expressão: 
+
+false || false; 
+
+retorna false. 
+
+NOT
+O operador de negação (!) é um operando unário, isto é, opera sobre apenas um operando. Ele nega, inverte o valor lógico do operando. Veja os exemplos: 
+
+var x = 2 > 1; // o valor de x é true
+
+!x; // o valor retornado por essa expressão é false
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
 - Comparações não boleanos
 ______________________________________________________________________________________________________________________________________________________________________________________________________________________________________
