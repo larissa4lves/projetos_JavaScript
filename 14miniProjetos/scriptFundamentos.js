@@ -1,3 +1,6 @@
+//AQUI ESTÃO TODOS OS EXERCICIOS DE EXPLICAÇÃO SOBRE CADA FUNDAMENTO DOS TEMAS ABAIXO 
+
+
 // ****VARIAVEIS****
 
 // let idade = 5;
@@ -121,7 +124,7 @@
 // console.log(resultado);
 
 //______________________________________________________________________________________________________________________________
-// **** Operadores aritiméticos no Javascript ****
+// **** OPERADORES ARITMÉTICOS NO JAVASCRIPT ****
 // let salario = 100;
 
 // // +, -, *, /, **
@@ -136,7 +139,7 @@
 // console.log(--idade);
 // console.log(idade);
 //______________________________________________________________________________________________________________________________
-// ****  Operadores de atribuição no Javascript  ****
+// ****  OPERADORES DE ATRIBUIÇÃO NO JAVASCRIPT  ****
 
 // let valorTecladoGamer = 10;
 // valorTecladoGamer = valorTecladoGamer + valorTecladoGamer;
@@ -144,7 +147,7 @@
 // valorTecladoGamer -= valorTecladoGamer;
 // console.log(valorTecladoGamer);
 // ______________________________________________________________________________________________________________________________
-//  **** Operadores de igualdade no Javascript ****
+//  **** OPERADORES DE IGUALDADE NO JAVASCRIPT ****
 // operadores de igualdade estrita
 // console.log (1 === 1);
 // console.log ('1' === 1);
@@ -153,12 +156,12 @@
 // console.log (1 == 1);
 // console.log ('1' == 1);
 //______________________________________________________________________________________________________________________________
-// **** Operador Ternário ****
+// **** OPERADOR TERNARIO ****
 //  let pontos = 200;
 //  let tipo = pontos > 100 ? 'premium': 'comum';
 //  console.log(tipo);
 //______________________________________________________________________________________________________________________________
-// **** Operadores Lógicos e (&&) ****
+// **** OPERADORES LÓGICOS E (&&) ****
 // retorna TRUE se os dois operandos forem TRUE
 
 // console.log(true && false);
@@ -181,10 +184,10 @@
 //Operador NOT (!)
 // let candidatoRecusado = !podeAplicar;
 
-// console.log('Candidato Recusado', candidatoRecusado);
+// console.log('Candidato Recusado', candidatoRecusado);  
 
 //______________________________________________________________________________________________________________________________
-// **** Comparações não boleanos ****
+// **** COMPARAÇÕES NÃO BOLEANOS ****
 
 // falsy
 
@@ -203,6 +206,7 @@
 
 // console.log(corPerfil);
 //______________________________________________________________________________________________________________________________
+
 
 
 
